@@ -1,0 +1,5 @@
+roscore
+rosrun robot_voice iat_publish
+rosrun robot_voice voice_teleop.py
+rosrun turtlesim turtlesim_node
+rostopic pub /voiceWakeup  std_msgs/String  "data: 'anny string'"

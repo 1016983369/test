@@ -1,0 +1,4 @@
+roslaunch myrobot_description arbotix_myrobot_with_kinect.launch
+roslaunch myrobot_teleop myrobot_teleop.launch
+roslaunch myrobot_gazebo view_myrobot_with_camera_gazebo.launch
+rqt_image_view
